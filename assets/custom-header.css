@@ -1,4 +1,17 @@
 .header.header--middle-left.page-width.header--has-menu {
     background: transparent;
     position: absolute;
+    min-width: 100%;
+}
+
+.header__heading span {
+    color: white !important;
+}
+
+.list-menu.list-menu--inline span {
+    color: white;
+}
+
+.header__icons svg {
+    color: white;
 }
