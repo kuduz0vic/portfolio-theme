@@ -1,7 +1,23 @@
-.header.header--middle-left.page-width.header--has-menu {
+.custom-header_color_active {
     background: transparent;
     position: absolute;
     min-width: 100%;
+}
+
+.custom-header_color {
+    background: transparent;
+    position: absolute;
+    min-width: 100%;
+}
+
+.custom-header_color_remove {
+    background: white;
+    position: absolute;
+    min-width: 100%;
+}
+
+.custom-header_items_active {
+    color: white;
 }
 
 .header__heading span {
@@ -15,3 +31,8 @@
 .header__icons svg {
     color: white;
 }
+
+.icon.icon-hamburger {
+    color: white;
+}
+
