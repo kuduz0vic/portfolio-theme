@@ -16,19 +16,43 @@
     min-width: 100%;
 }
 
-.custom-header_items_active {
+
+
+
+
+.custom-header_logo_active {
     color: white;
 }
 
+.custom-header_logo_remove {
+    color: black !important;
+}
+
+
+
+
+
+
+.custom-header_icons_active {
+    color: white;
+}
+
+.custom-header_icons_remove {
+    color: black !important;
+}
+
+
+
+.header__icons svg {
+    color: white;
+}
+
+
 .header__heading span {
-    color: white !important;
+    color: white;
 }
 
 .list-menu.list-menu--inline span {
-    color: white;
-}
-
-.header__icons svg {
     color: white;
 }
 
@@ -36,3 +60,15 @@
     color: white;
 }
 
+.icon.icon-close {
+    color: black !important;
+}
+
+.icon.icon-search {
+    color: black;
+}
+
+.menu-drawer {
+    border: 0;
+    top: 99%;
+}
