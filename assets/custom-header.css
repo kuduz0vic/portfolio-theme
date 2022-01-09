@@ -72,3 +72,7 @@
     border: 0;
     top: 99%;
 }
+
+.modal__toggle-open.icon.icon-search {
+    color: white;
+}
