@@ -1,7 +1,7 @@
 .banner__content.banner__content--middle-center.page-width {
     height: 100vh;
-    max-width: 88%;
-    min-width: 88%;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 .banner__box {
