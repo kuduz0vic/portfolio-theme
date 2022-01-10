@@ -27,3 +27,8 @@ $(function(){
     });
    });
 
+
+   window.addEventListener("scroll", function(){
+   var header = document.querySelector("#custom-header");
+   header.classList.toggle("sticky-header", window.scrollY > 0);
+   })

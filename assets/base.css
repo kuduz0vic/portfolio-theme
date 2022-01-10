@@ -1883,10 +1883,10 @@ input[type='checkbox'] {
   padding-bottom: 1rem;
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 750px) {
   .header {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .header--has-menu:not(.header--middle-left) {
@@ -1953,6 +1953,11 @@ input[type='checkbox'] {
 }
 
 .header__heading-logo {
+  height: auto;
+  width: 100%;
+}
+
+.header__heading-logo_2 {
   height: auto;
   width: 100%;
 }

@@ -93,3 +93,48 @@
     transition: transform var(--duration-long) ease, visibility var(--duration-long) ease;
 }
 }
+
+
+.list-menu__item {
+    font-size: 1.8rem;
+}
+
+@media only screen and (min-width: 750px) {
+    .header__icon .icon {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+    .header__icon, .header__icon--cart .icon {
+        width: 4.6rem;
+        height: 4.6rem;
+    }
+}
+
+.header__heading-logo_2 {
+    display: none;
+}
+
+.sticky-header {
+    background: white;
+    position: fixed;
+    z-index: 999;
+}
+
+#custom-header.sticky-header .list-menu.list-menu--inline span {
+    color: black;
+}
+
+#custom-header.sticky-header .header__heading-logo {
+    display: none;
+}
+
+#custom-header.sticky-header .header__heading-logo_2 {
+    display: initial;
+}
+
+#custom-header.sticky-header .header__icons svg {
+    color: black;
+}
+#custom-header.sticky-header .header__heading span {
+    color: black;
+}
