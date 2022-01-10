@@ -76,3 +76,17 @@
 .modal__toggle-open.icon.icon-search {
     color: white;
 }
+
+.menu-drawer {
+    width: 100%;
+    transform: translateY(-100%);
+}
+
+.list-menu__item {
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.js details[open] > .menu-drawer, .js details[open] > .menu-drawer__submenu {
+    transition: transform var(--duration-long) ease, visibility var(--duration-long) ease;
+}
