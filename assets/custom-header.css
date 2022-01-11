@@ -28,8 +28,13 @@
     color: black !important;
 }
 
+.black-header_logo_remove {
+    display: initial !important;
+}
 
-
+.white-header_logo_remove {
+    display: none !important;
+}
 
 
 
@@ -137,4 +142,15 @@
 }
 #custom-header.sticky-header .header__heading span {
     color: black;
+}
+
+#custom-header.sticky-header .icon-hamburger {
+    color: black;
+}
+
+@media only screen and (min-width: 750px) and (max-width: 990px) {
+    .header--middle-left {
+        grid-template-areas: 'navigation heading icons';
+        grid-template-columns: auto 1fr auto;
+    }
 }

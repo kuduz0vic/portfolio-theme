@@ -26,6 +26,13 @@ $(function(){
         $("#header-icons_custom_cart").toggleClass("custom-header_icons_active");
     });
    });
+   
+   $(function(){
+    $("#custom-color_icon").click(function(){
+        $("#header__heading-logo").toggleClass("white-header_logo_remove");
+        $("#header__heading-logo-2").toggleClass("black-header_logo_remove");
+    });
+   });
 
 
    window.addEventListener("scroll", function(){
