@@ -80,9 +80,11 @@
       >
     </div>
   {%- endif -%}
-    <div class="{% if section.settings.image != blank %} banner__media-half{% endif %} mobile-hero">
-     <video src="{{section.settings.mobile-hero_link}}"></video>
-    </div>
+  <div class="hero-video_wrapper">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="{{section.settings.mobile-hero_link}}" type="video/mp4">
+    </video>
+  </div>
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
     <div class="banner__box color-{{ section.settings.color_scheme }}">
       {%- for block in section.blocks -%}
