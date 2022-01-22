@@ -53,7 +53,7 @@
     "16422614307450613d": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "",
         "collection": "surfboards",
         "products_to_show": 4,
         "show_view_all": true,
@@ -61,7 +61,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
-        "show_image_outline": true,
+        "show_image_outline": false,
         "show_vendor": false,
         "show_rating": false
       }
