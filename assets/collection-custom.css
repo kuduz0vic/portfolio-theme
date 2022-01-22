@@ -1,3 +1,12 @@
 .card-wrapper {
     max-width: 80%;
 }
+
+{% if template == 'index' %}
+.price {
+    justify-content: center;
+}
+.card-information__wrapper {
+    text-align: center;
+}
+{% endif %}
