@@ -50,77 +50,25 @@
         "show_text_below": false
       }
     },
-    "1641929665221a91ad": {
-      "type": "featured-product",
-      "blocks": {
-        "1641929665b68d0809-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "1641929665b68d0809-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "1641929665b68d0809-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "1641929665b68d0809-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1641929665b68d0809-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "1641929665b68d0809-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "1641929665b68d0809-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "1641929665b68d0809-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "1641929665b68d0809-0",
-        "1641929665b68d0809-1",
-        "1641929665b68d0809-2",
-        "1641929665b68d0809-3",
-        "1641929665b68d0809-4",
-        "1641929665b68d0809-5",
-        "1641929665b68d0809-6",
-        "1641929665b68d0809-7"
-      ],
+    "16422614307450613d": {
+      "type": "featured-collection",
       "settings": {
-        "product": "hayden-shapes",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false
+        "title": "Featured collection",
+        "collection": "surfboards",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
       }
     }
   },
   "order": [
     "image_banner",
-    "1641929665221a91ad"
+    "16422614307450613d"
   ]
 }
