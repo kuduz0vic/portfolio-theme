@@ -1,0 +1,37 @@
+#ImageWithText--template--15270096568471__1643053027c202a9fe {
+    background-color: rgb(224, 224, 224);
+    color: #000;
+    z-index: 999;
+}
+
+
+#shopify-section-template--15270096568471__1643053027c202a9fe .image-with-text__text-item{
+    padding-top: 7%;
+    z-index: 999;
+}
+
+#shopify-section-template--15270096568471__1643053027c202a9fe .image-with-text__media-item {
+    padding-bottom: 5%;
+}
+
+#Slider-template--15270096568471__16422614307450613d {
+padding: 50px 0px;
+}
+
+.slider-mobile-gutter {
+    padding: 0px 10px;
+}
+
+#Slider-template--15270096568471__16422614307450613d li {
+    background-color: rgb(224, 224, 224);
+    padding: 20px 20px;
+}
+
+#Slider-template--15270096568471__16422614307450613d li:not(:last-child) { 
+    margin-left: 1px;
+    margin-right: 9px; 
+ }
+
+ .card-wrapper {
+     max-width: 100%;
+ }

@@ -1,4 +1,5 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+{{ 'custom-image_text.css' | asset_url | stylesheet_tag }}
 
 <div class="image-with-text {% if section.settings.full_width %}image-with-text--full-width{% else %}page-width{% endif %} image-with-text--{{ section.settings.content_layout }} color-scheme-{{ section.settings.color_scheme }}">
   <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}{% if section.settings.content_layout == 'no-overlap' %} gradient color-{{ section.settings.color_scheme }}{% endif %}">
