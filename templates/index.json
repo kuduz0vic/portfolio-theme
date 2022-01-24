@@ -106,11 +106,128 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "left"
       }
+    },
+    "16430530992f4819c7": {
+      "type": "featured-product",
+      "blocks": {
+        "1643053099757fbf7e-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1643053099757fbf7e-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1643053099757fbf7e-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1643053099757fbf7e-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1643053099757fbf7e-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1643053099757fbf7e-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1643053099757fbf7e-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1643053099757fbf7e-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1643053099757fbf7e-0",
+        "1643053099757fbf7e-1",
+        "1643053099757fbf7e-2",
+        "1643053099757fbf7e-3",
+        "1643053099757fbf7e-4",
+        "1643053099757fbf7e-5",
+        "1643053099757fbf7e-6",
+        "1643053099757fbf7e-7"
+      ],
+      "settings": {
+        "product": "pat-madden-twin-fish-eps-surfboard",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "1643053181e88604de": {
+      "type": "multicolumn",
+      "blocks": {
+        "1643053181682c0b93-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1643053181682c0b93-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1643053181682c0b93-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1643053181682c0b93-0",
+        "1643053181682c0b93-1",
+        "1643053181682c0b93-2"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
     "image_banner",
     "16422614307450613d",
-    "1643053027c202a9fe"
+    "1643053027c202a9fe",
+    "16430530992f4819c7",
+    "1643053181e88604de"
   ]
 }
