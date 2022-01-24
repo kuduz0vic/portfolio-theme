@@ -2351,3 +2351,6 @@ details-disclosure > details {
   }
 }
 
+.title-wrapper-with-link {
+  justify-content: center;
+}
