@@ -15,7 +15,8 @@
 }
 
 #Slider-template--15270096568471__16422614307450613d {
-padding: 50px 0px;
+padding-bottom: 50px;
+padding-top: 10px;
 }
 
 .slider-mobile-gutter {
@@ -35,3 +36,20 @@ padding: 50px 0px;
  .card-wrapper {
      max-width: 100%;
  }
+
+ .collection.page-width.page-width-desktop h2 {
+     font-size: 32px !important;
+     padding-top: 20px;
+ }
+
+ @media only screen and (min-width: 750px) {
+     .image-with-text__media-item-mobile {
+         display: none !important;
+     }
+ }
+
+@media only screen and (max-width: 750px) {
+    .image-with-text__media-item  {
+        display: none !important;
+    }
+}
