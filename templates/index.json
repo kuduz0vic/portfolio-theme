@@ -98,14 +98,16 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/desktop_image_with_text.jpg",
+        "image_2": "shopify:\/\/shop_images\/stuart-davies-_O_3Qc7gksQ-unsplash_75.jpg",
         "height": "adapt",
+        "height_2": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "left"
+        "mobile_content_alignment": "center"
       }
     },
     "16430530992f4819c7": {
