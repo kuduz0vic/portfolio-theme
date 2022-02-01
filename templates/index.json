@@ -98,8 +98,10 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/desktop_image_with_text.jpg",
+        "image_3": "shopify:\/\/shop_images\/pexels-jess-loiterton-5231677_1.jpg",
         "image_2": "shopify:\/\/shop_images\/stuart-davies-_O_3Qc7gksQ-unsplash_75.jpg",
         "height": "adapt",
+        "height_3": "small",
         "height_2": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
