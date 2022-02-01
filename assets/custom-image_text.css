@@ -1,8 +1,4 @@
-#ImageWithText--template--15270096568471__1643053027c202a9fe {
-    background-color: transparent;
-    color: #000;
-    z-index: 999;
-}
+
 
 
 #shopify-section-template--15270096568471__1643053027c202a9fe .image-with-text__text-item{
@@ -65,6 +61,8 @@ padding-top: 10px;
 .image-with-text__text-item.image-text_wrapper.textgrid__item {
     margin-top: -23%;
     margin-bottom: 23%;
+    background-color: transparent;
+    color: #000;
 }
  }
 
