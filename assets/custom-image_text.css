@@ -35,57 +35,15 @@ padding-top: 10px;
      padding-top: 20px;
  }
 
- @media only screen and (min-width: 750px) {
-     .image-with-text__media-item-mobile {
-         display: none !important;
-     }
-     .image-with-text__media-second.image-with-text__media--small.media {
-         margin-top: 3%;
-         margin-left: -7%;
-         margin-right: 7%;
-     }
-    #ImageWithText--template--15270096568471__1643053027c202a9fe {
-        background:transparent;
-    }
-#ImageWithText--template--15270183370903__1643053027c202a9fe {
-    background-color: transparent !important;
-    color: #000;
-}
-.image-with-text__text.rte.body {
-    max-width: 64%;
-}
- }
 
-@media only screen and (max-width: 750px) {
-    .image-with-text__media-item  {
-        display: none !important;
-    }
 
-    .image-with-text__media-mobile.image-with-text__media--large {
-        height: 700px;
-    }
-    .image-with-text__media-mobile.image-with-text__media--large img {
-        filter: brightness(75%);
-    }
-}
-
-@media only screen and (min-width: 980px) {
-    .custom-image_grid {
-       display: flex;
-       flex-direction: column;
-       flex-wrap: wrap;
-       height: 1000px;
-       list-style-type: none;
-    }
-    .image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--top.grid__item {
-       flex: 0 0 100%;
-       width: 50%;
-    }
+@media only screen and (min-width: 865px) {
     .image-with-text__text-item.image-text_wrapper.textgrid__item {
-       margin-left: -49%;
-       margin-top: 13%;
-    }
-    }
+        margin-left: -49%;
+        margin-top: 13%;
+     }
+}
+
 
 @media only screen and (min-width: 1350px) and (max-width: 1500px) {
     .image-with-text__text-item.image-text_wrapper.textgrid__item {
@@ -111,21 +69,94 @@ padding-top: 10px;
         margin-top: 21%;
     }
 }
-@media only screen and (min-width: 980px) and (max-width: 1050px) {
+@media only screen and (min-width: 990px) and (max-width: 1050px) {
     .image-with-text__text-item.image-text_wrapper.textgrid__item {
         margin-left: -49%;
-        margin-top: 23%;
+        margin-top: 25%;
     }
 }
-@media only screen and (min-width: 865px) and (max-width: 980px) {
+
+@media only screen and (min-width: 950px) and (max-width: 990px) {
     .image-with-text__text-item.image-text_wrapper.textgrid__item {
-        margin-left: -49%;
+        margin-left: -47%;
+        margin-top: 28%;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 950px) {
+    .image-with-text__text-item.image-text_wrapper.textgrid__item {
+        margin-left: -47%;
         margin-top: 30%;
     }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (min-width: 865px) and (max-width: 900px) {
+    .image-with-text__text-item.image-text_wrapper.textgrid__item {
+        margin-left: -47%;
+        margin-top: 32%;
+    }
+}
+
+@media only screen and (max-width: 865px) {
 .image-with-text__media-item-second {
     display: none;
 }
+.image-with-text__media-item-mobile {
+    min-width: 100%;
+}
+.image-with-text__text.rte.body {
+    text-align: center;
+ }
+}
+
+@media only screen and (min-width: 865px) {
+    .image-with-text__media-item-mobile {
+        display: none !important;
+    }
+    .image-with-text__media-second.image-with-text__media--small.media {
+        margin-top: 3%;
+        margin-left: -7%;
+        margin-right: 7%;
+    }
+   #ImageWithText--template--15270096568471__1643053027c202a9fe {
+       background:transparent;
+   }
+#ImageWithText--template--15270183370903__1643053027c202a9fe {
+   background-color: transparent !important;
+   color: #000;
+}
+.image-with-text__text.rte.body {
+   max-width: 64%;
+}
+.image-with-text__content--desktop-left {
+ align-self: center !important;
+ text-align: center !important;
+}
+}
+
+@media only screen and (max-width: 865px) {
+   .image-with-text__media-item  {
+       display: none !important;
+   }
+
+   .image-with-text__media-mobile.image-with-text__media--large {
+       height: 700px;
+   }
+   .image-with-text__media-mobile.image-with-text__media--large img {
+       filter: brightness(75%);
+   }
+}
+
+@media only screen and (min-width: 865px) {
+   .custom-image_grid {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 1000px;
+      list-style-type: none;
+   }
+   .image-with-text__media-item.image-with-text__media-item--medium.image-with-text__media-item--top.grid__item {
+      flex: 0 0 100%;
+      width: 50%;
+   }
 }
