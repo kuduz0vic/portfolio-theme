@@ -72,21 +72,21 @@
         "16430530271744dbf4-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "The Creation Process",
             "heading_size": "h1"
           }
         },
         "16430530271744dbf4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p><p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>For the production of surfboards, the most common materials used are: foam, epoxy or polyester resin, fiberglass, glass microspheres, fin caps and the leash cap.<\/p><p>Foam is <strong>the base of the board<\/strong>. In order to get a good quality foam, it needs to be pressure resistant (so the board doesn’t bruise), light and white (the whiter is, the better it will be).<\/p><p>The epoxy resin gives the board greater <strong>rigidity, durability and strength<\/strong>. Epoxy resin boards are<strong> lighter<\/strong>, have <strong>more buoyancy<\/strong> and are perfect for catching <strong>small waves<\/strong>. It has much higher mechanical properties than polyester resins, but <strong>is more expensive<\/strong> and therefore less used.<\/p>",
             "text_style": "body"
           }
         },
         "16430530271744dbf4-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Read More",
             "button_link": ""
           }
         }
@@ -112,82 +112,15 @@
         "mobile_content_alignment": "center"
       }
     },
-    "16430530992f4819c7": {
-      "type": "featured-product",
-      "blocks": {
-        "1643053099757fbf7e-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "1643053099757fbf7e-1": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "1643053099757fbf7e-2": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "1643053099757fbf7e-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1643053099757fbf7e-4": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "1643053099757fbf7e-5": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "1643053099757fbf7e-6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "1643053099757fbf7e-7": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "1643053099757fbf7e-0",
-        "1643053099757fbf7e-1",
-        "1643053099757fbf7e-2",
-        "1643053099757fbf7e-3",
-        "1643053099757fbf7e-4",
-        "1643053099757fbf7e-5",
-        "1643053099757fbf7e-6",
-        "1643053099757fbf7e-7"
-      ],
-      "settings": {
-        "product": "pat-madden-twin-fish-eps-surfboard",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false
-      }
-    },
     "1643053181e88604de": {
       "type": "multicolumn",
       "blocks": {
         "1643053181682c0b93-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/terrell-woods-zKzwvEezgaY-unsplash-modified.png",
+            "title": "One of the best!",
+            "text": "<p>I love this board. It paddles great, feels locked in on the face, releases easy and has good hold for big turns and cutbacks. The extra volume doesn't hold you back. Excels in chest to 2 ft overhead conditions<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -195,8 +128,9 @@
         "1643053181682c0b93-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/khalid-boutchich-JIHm_hrK-FI-unsplash-modified.png",
+            "title": "A great day every day.",
+            "text": "<p>It’s definitely a great every day board when the waves are more than 2 ft. EPS makes it a very light board that is easy to turn. I had the most fun in small, hollow conditions.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -204,8 +138,9 @@
         "1643053181682c0b93-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/tower-paddle-boards-Ox3tf7Se1Dw-unsplash-modified.png",
+            "title": "Beginners need this!",
+            "text": "<p>Amazing, I just started surfing so I went to the beginners category, and I fell in love with this board.<br\/><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -218,7 +153,7 @@
       ],
       "settings": {
         "title": "Testimonials",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "column_alignment": "center",
         "background_style": "primary",
@@ -232,7 +167,6 @@
     "image_banner",
     "16422614307450613d",
     "1643053027c202a9fe",
-    "16430530992f4819c7",
     "1643053181e88604de"
   ]
 }
