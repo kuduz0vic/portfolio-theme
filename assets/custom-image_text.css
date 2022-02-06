@@ -283,7 +283,7 @@ padding-top: 10px;
     }
  }
 
- @media only screen and (min-width: 400px) and (max-width: 430px) {
+ @media only screen and (min-width: 410px) and (max-width: 430px) {
     .image-with-text__media-item  {
         display: none !important;
     }
@@ -296,7 +296,7 @@ padding-top: 10px;
     }
     .image-with-text__text-item.image-text_wrapper.textgrid__item {
         position: absolute;
-        margin-top: -155%;
+        margin-top: -165%;
         margin-right: 7%;
     }
     .image-with-text__text-item.image-text_wrapper.textgrid__item div {
@@ -304,7 +304,7 @@ padding-top: 10px;
     }
  }
 
- @media only screen and (max-width: 400px) {
+ @media only screen and (max-width: 410px) {
     .image-with-text__media-item  {
         display: none !important;
     }
