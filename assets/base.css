@@ -1204,7 +1204,7 @@ deferred-media {
   border: 0.1rem solid transparent;
   border-radius: 0;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
-  box-shadow: 0 0 0 0.1rem rgba(var(--color-button), var(--alpha-button-border));
+
   color: rgb(var(--color-button-text));
   min-width: 12rem;
   min-height: 4.5rem;
