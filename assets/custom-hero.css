@@ -1,4 +1,28 @@
+.banner__content.banner__content--middle-center.page-width {
+    height: calc(100vh - 160px);
+    max-width: 100%;
+    min-width: 100%;
+}
 
+#shopify-section-template--15375439298711__image_banner {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+
+#shopify-section-header {
+    margin: 0px 40px;
+}
+
+@media only screen and (min-width: 750px) {
+.hero-video_wrapper {
+    display: none;
+}
+.banner__box {
+    position: absolute;
+    left: 5%;
+}
+}
 
 @media only screen and (max-width: 750px) {
 .banner__media.media {
