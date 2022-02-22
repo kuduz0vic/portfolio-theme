@@ -1,18 +1,4 @@
-.banner__content.banner__content--middle-center.page-width {
-    height: 100vh;
-    max-width: 100%;
-    min-width: 100%;
-}
 
-@media only screen and (min-width: 750px) {
-.hero-video_wrapper {
-    display: none;
-}
-.banner__box {
-    position: absolute;
-    left: 5%;
-}
-}
 
 @media only screen and (max-width: 750px) {
 .banner__media.media {
