@@ -7,6 +7,15 @@
     margin-left: 60px;
     margin-right: 60px;
     height: calc(100vh - 130px);
+    
+}
+.banner__box {
+    position: absolute;
+    left: 3%;
+}
+.button.button--primary {
+    background: black !important;
+    color: white !important;
 }
 }
 
