@@ -2,6 +2,12 @@
 .hero-video_wrapper {
     display: none;
 }
+.banner.banner--content-align-left.banner--content-align-mobile-center.banner--large.banner--desktop-transparent {
+    margin-top: 75px;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: calc(100vh - 130px);
+}
 }
 
 @media only screen and (max-width: 750px) {
