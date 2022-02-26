@@ -17,9 +17,7 @@
 }
 
 
-
-
-
+@media only screen and (max-width: 750px) {
 
 .custom-header_logo_active {
     color: white;
@@ -87,7 +85,7 @@
 }
 
 
-@media only screen and (max-width: 750px) {
+
 .menu-drawer {
     width: 100%;
     transform: translateY(-100%);
