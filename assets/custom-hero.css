@@ -9,10 +9,6 @@
     height: calc(100vh - 130px);
     
 }
-.banner__box {
-    position: absolute;
-    left: 3%;
-}
 .button.button--primary {
     background: black !important;
     color: white !important;
@@ -25,6 +21,16 @@
 }
 }
 
+
+@media only screen and (min-width: 990px) { 
+    .banner__box {
+        position: absolute;
+        left: 3%;
+    }
+    }
+
+
+
 @media only screen and (min-width: 750px) and (max-width: 990px) {
     .banner__media.media.banner__media-half {
         display: none;
@@ -33,7 +39,14 @@
         display: initial;
         width: 100%;
     }
-
+.banner__box.color-background-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner__text.subtitle {
+    text-align: center;
+}
 }
 
 @media only screen and (max-width: 749px) {
