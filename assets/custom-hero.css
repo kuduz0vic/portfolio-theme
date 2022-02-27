@@ -17,6 +17,23 @@
     background: black !important;
     color: white !important;
 }
+.banner__media.hero_2.media.banner__media-half {
+    display: none;
+}
+.banner__media.media.banner__media-half {
+    width: 100%;
+}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 990px) {
+    .banner__media.media.banner__media-half {
+        display: none;
+    }
+    .banner__media.hero_2.media.banner__media-half {
+        display: initial;
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -32,6 +49,9 @@
     left: 0;
     z-index: -1;
     filter: brightness(50%);
+}
+.hero-video_wrapper {
+    height: 100vh;
 }
 .banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {
     min-height: 100vh;
