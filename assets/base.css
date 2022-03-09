@@ -2354,3 +2354,6 @@ details-disclosure > details {
   justify-content: center;
 }
 
+.rte {
+  font-weight: 500;
+}
