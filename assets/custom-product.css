@@ -1,0 +1,8 @@
+.thumbnail-list__item:first-child {
+    display: none;
+}
+
+.product__media-item:first-child {
+    display: none;
+}
+
