@@ -36,24 +36,6 @@
           "settings": {
             "show_dynamic_checkout": true
           }
-        },
-        "975dca34-7f50-43b2-a140-a4faae1043d7": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Description",
-            "content": "",
-            "page": "",
-            "icon": "none"
-          }
-        },
-        "9675cb23-b232-4951-880e-6f1e43c788a0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping",
-            "content": "",
-            "page": "",
-            "icon": "none"
-          }
         }
       },
       "block_order": [
@@ -62,9 +44,7 @@
         "price",
         "quantity_selector",
         "f8cc094c-af6b-40ab-8706-4a47cfa410fe",
-        "buy_buttons",
-        "975dca34-7f50-43b2-a140-a4faae1043d7",
-        "9675cb23-b232-4951-880e-6f1e43c788a0"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": false,
