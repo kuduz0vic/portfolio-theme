@@ -1,39 +1,17 @@
-<div class="tabs">
-    <ul id="tabs-nav">
-      <li><a href="#tab1">Sherry</a></li>
-      <li><a href="#tab2">Ali</a></li>
-      <li><a href="#tab3">Amjad</a></li>
-      <li><a href="#tab4">Usama</a></li>
-    </ul> <!-- END tabs-nav -->
-    <div id="tabs-content">
-      <div id="tab1" class="tab-content">
-        <h2>Sherry</h2>
-        <p>"You know, there's a million fine looking women in the world, dude. But they don't all bring you lasagna at work. Most of 'em just cheat on you."</p>
-      </div>
-      <div id="tab2" class="tab-content">
-        <h2>Ali</h2>
-        <p>"My friend here's trying to convince me that any independent contractors who were working on the uncompleted Death Star were innocent victims when it was destroyed by the Rebels."</p>
-      </div>
-      <div id="tab3" class="tab-content">
-        <h2>Amjad</h2>
-        <p>"In light of this lurid tale, I don't even see how you can romanticize your relationship with Caitlin. She broke your heart and inadvertently drove men to deviant lifestyles."</p>
-      </div>
-      <div id="tab4" class="tab-content">
-        <h2>Usama</h2>
-        <p>"I don't care if she's my cousin or not, I'm gonna knock those boots again tonight."</p>
-      </div>
-    </div> <!-- END tabs-content -->
-  </div> <!-- END tabs -->
-
-
-
   {% for block in section.blocks %}
   {% case block.type %}
     {% when 'tabs' %}
-      <div class="slide" {{ block.shopify_attributes }}>
-        {{ block.settings.image | image_url: width: 2048 | image_tag }}
-      </div>
-    ...
+    <div class="tabs">
+      <ul id="tabs-nav">
+        <li><a href="#tab1">Sherry</a></li>
+      </ul> <!-- END tabs-nav -->
+      <div id="tabs-content">
+        <div id="tab1" class="tab-content">
+          <h2>Sherry</h2>
+          <p>"You know, there's a million fine looking women in the world, dude. But they don't all bring you lasagna at work. Most of 'em just cheat on you."</p>
+        </div>
+      </div> <!-- END tabs-content -->
+    </div> <!-- END tabs -->
   {% endcase %}
 {% endfor %}
 
@@ -63,6 +41,11 @@
         "name": "Tabs",
         "type": "tabs",
         "settings": [
+          {
+            "type": "text",
+            "id": "tab-heading",
+            "label": "Tab Heading"
+          },
           {
             "type": "textarea",
             "id": "tab-content",
