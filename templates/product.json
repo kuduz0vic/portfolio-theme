@@ -57,13 +57,6 @@
             "tab-heading": "Return",
             "tab-content": "<p>Returns within 30 days!<\/p>"
           }
-        },
-        "6b211113-0347-438c-bd03-0d21c80d5fa4": {
-          "type": "tabs",
-          "settings": {
-            "tab-heading": "Random Tab",
-            "tab-content": "<p>Random information a tab needs!<\/p>"
-          }
         }
       },
       "block_order": [
@@ -75,8 +68,7 @@
         "buy_buttons",
         "cbe8cf53-a4fb-4760-8aca-44d83b531636",
         "38eb0f81-8f5f-4bda-9b04-f88dddfa746c",
-        "f7233fe0-3d6a-4cbe-8384-03e9ff21619d",
-        "6b211113-0347-438c-bd03-0d21c80d5fa4"
+        "f7233fe0-3d6a-4cbe-8384-03e9ff21619d"
       ],
       "settings": {
         "enable_sticky_info": false,
