@@ -1,74 +1,85 @@
-  {% for block in section.blocks %}
-  {% case block.type %}
+
+<div class="tabs">
+  <ul id="tabs-nav">
+    {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'tabs' %}
+    <li><a href="#tab{{forloop.index}}">{{ block.settings.tab-heading }}</a></li>
+    {% endcase %}
+    {% endfor %}
+  </ul> <!-- END tabs-nav -->
+
+  <div id="tabs-content">
+    {% for block in section.blocks %}
+    {% case block.type %}
     {% when 'tabs' %}
-    <div class="tabs">
-      <ul id="tabs-nav">
-        <li><a href="#tab1">Sherry</a></li>
-      </ul> <!-- END tabs-nav -->
-      <div id="tabs-content">
-        <div id="tab1" class="tab-content">
-          <h2>Sherry</h2>
-          <p>"You know, there's a million fine looking women in the world, dude. But they don't all bring you lasagna at work. Most of 'em just cheat on you."</p>
-        </div>
-      </div> <!-- END tabs-content -->
-    </div> <!-- END tabs -->
-  {% endcase %}
-{% endfor %}
+    <div id="tab{{forloop.index}}" class="tab-content">
+      <p>{{ block.settings.tab-content }}</p>
+    </div>
+    {% endcase %}
+    {% endfor %}
+  </div> <!-- END tabs-content -->
+</div> <!-- END tabs -->
 
 
+<style>
+  /* Tabs */
 
-  {% schema %}
+</style>
+
+
+{% schema %}
+{
+  "name": "Product Tabs",
+  "tag": "section",
+  "class": "product-tabs",
+  "max_blocks": 5,
+  "settings": [
   {
-      "name": "Product Tabs",
-      "tag": "section",
-      "class": "product-tabs",
-      "max_blocks": 5,
-      "settings": [
-      {
-      "type": "text",
-      "id": "tab-heading",
-      "label": "Tab Heading",
-      "default": "Find Out More"
-      },
+  "type": "text",
+  "id": "tab-heading",
+  "label": "Tab Heading",
+  "default": "Find Out More"
+  },
+  {
+    "type": "text",
+    "id": "title",
+     "label": "The title"
+    }
+  ],
+  "blocks": [
+  {
+    "name": "Tabs",
+    "type": "tabs",
+    "settings": [
       {
         "type": "text",
-        "id": "title",
-         "label": "The title"
-        }
-      ],
-      "blocks": [
+        "id": "tab-heading",
+        "label": "Tab Heading"
+      },
       {
-        "name": "Tabs",
-        "type": "tabs",
-        "settings": [
-          {
-            "type": "text",
-            "id": "tab-heading",
-            "label": "Tab Heading"
-          },
-          {
-            "type": "textarea",
-            "id": "tab-content",
-            "label": "Tab Content"
-          }
-        ]
+        "type": "textarea",
+        "id": "tab-content",
+        "label": "Tab Content"
       }
-    ],
-    "presets": [
+    ]
+  }
+],
+"presets": [
+{
+  "name": "Product Tabs",
+  "settings": {
+     "title": "Product Tabs"
+   },
+  "blocks": [
     {
-      "name": "Product Tabs",
-      "settings": {
-         "title": "Product Tabs"
-       },
-      "blocks": [
-        {
-          "type": "tabs"
-        },
-        {
-          "type": "tabs"
-        }
-      ]
+      "type": "tabs"
+    },
+    {
+      "type": "tabs"
     }
   ]
 }
-  {% endschema %}
+]
+}
+{% endschema %}

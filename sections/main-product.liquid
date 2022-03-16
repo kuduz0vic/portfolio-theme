@@ -465,6 +465,29 @@
             {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
+        <div class="tab-wrapper">
+          <div class="tabs">
+            <ul id="tabs-nav">
+              {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'tabs' %}
+              <li><a href="#tab{{forloop.index}}">{{ block.settings.tab-heading }}</a></li>
+              {% endcase %}
+              {% endfor %}
+            </ul> <!-- END tabs-nav -->
+          
+            <div id="tabs-content">
+              {% for block in section.blocks %}
+              {% case block.type %}
+              {% when 'tabs' %}
+              <div id="tab{{forloop.index}}" class="tab-content">
+                <p>{{ block.settings.tab-content }}</p>
+              </div>
+              {% endcase %}
+              {% endfor %}
+            </div> <!-- END tabs-content -->
+          </div> <!-- END tabs -->
+          </div>
       </div>
     </div>
   </div>
@@ -629,6 +652,7 @@
   }
 </script>
 
+
 {% schema %}
 {
   "name": "t:sections.main-product.name",
@@ -757,6 +781,22 @@
           "id": "custom_liquid",
           "label": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.label",
           "info": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.info"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "type": "tabs",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab-heading",
+          "label": "Tab Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "tab-content",
+          "label": "Tab Content"
         }
       ]
     },

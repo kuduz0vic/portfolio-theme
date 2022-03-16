@@ -36,6 +36,27 @@
           "settings": {
             "show_dynamic_checkout": true
           }
+        },
+        "cbe8cf53-a4fb-4760-8aca-44d83b531636": {
+          "type": "tabs",
+          "settings": {
+            "tab-heading": "More Specs",
+            "tab-content": "<p><strong>Length:<\/strong> 5'10\"<\/p><p><strong>Width:<\/strong> 20.60\"<\/p><p><strong>Thickness:<\/strong> 2.50\"<\/p><p><strong>Volume:<\/strong> 41.3L<\/p><p><strong>Fin Setup:<\/strong> Twin Futures<\/p><p><strong>Tech:<\/strong> EPS<\/p><p><strong>Tail Shape:<\/strong> Swallow<\/p>"
+          }
+        },
+        "38eb0f81-8f5f-4bda-9b04-f88dddfa746c": {
+          "type": "tabs",
+          "settings": {
+            "tab-heading": "Shipping",
+            "tab-content": "<p>Free worldwide shipping for 30 more days!<\/p>"
+          }
+        },
+        "f7233fe0-3d6a-4cbe-8384-03e9ff21619d": {
+          "type": "tabs",
+          "settings": {
+            "tab-heading": "Return",
+            "tab-content": "<p>Returns within 30 days!<\/p>"
+          }
         }
       },
       "block_order": [
@@ -44,7 +65,10 @@
         "price",
         "quantity_selector",
         "f8cc094c-af6b-40ab-8706-4a47cfa410fe",
-        "buy_buttons"
+        "buy_buttons",
+        "cbe8cf53-a4fb-4760-8aca-44d83b531636",
+        "38eb0f81-8f5f-4bda-9b04-f88dddfa746c",
+        "f7233fe0-3d6a-4cbe-8384-03e9ff21619d"
       ],
       "settings": {
         "enable_sticky_info": false,
@@ -105,29 +129,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "164745406371e48afd": {
-      "type": "product-tabs",
-      "blocks": {
-        "1647454063fa44f2f2-0": {
-          "type": "tabs",
-          "settings": {
-            "tab-content": ""
-          }
-        }
-      },
-      "block_order": [
-        "1647454063fa44f2f2-0"
-      ],
-      "settings": {
-        "tab-heading": "Find Out More",
-        "title": "Product Tabs"
-      }
     }
   },
   "order": [
     "main",
-    "164735268700618fe2",
-    "164745406371e48afd"
+    "164735268700618fe2"
   ]
 }
