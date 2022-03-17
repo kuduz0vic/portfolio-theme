@@ -75,18 +75,18 @@
       <div id="ImageWithText--{{ section.id }}" class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container">
         {%- for block in section.blocks -%}
           {% case block.type %}
-            {%- when 'heading' -%}
+            {%- when 'heading_2' -%}
               <h2 class="image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                {{ block.settings.heading | escape }}
+                {{ block.settings.heading_2 | escape }}
               </h2>
             {%- when 'caption' -%}
               <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_2_style }} {{ block.settings.text_2_style }}--{{ block.settings.text_2_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
             {%- when 'text_2' -%}
               <div class="image-with-text__text rte {{ block.settings.text_2_style }}" {{ block.shopify_attributes }}>{{ block.settings.text_2 }}</div>
-            {%- when 'button' -%}
-              {%- if block.settings.button_label != blank -%}
-                <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
-                  {{ block.settings.button_label | escape }}
+            {%- when 'button_2' -%}
+              {%- if block.settings.button_label_2 != blank -%}
+                <a{% if block.settings.button_link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
+                  {{ block.settings.button_label_2 | escape }}
                 </a>
               {%- endif -%}
           {%- endcase -%}
@@ -366,6 +366,39 @@
       ]
     },
     {
+      "type": "heading_2",
+      "name": "Bottom Heading",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading_2",
+          "default": "Image with text",
+          "label": "Bottom Heading"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.image-with-text.blocks.heading.settings.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.image-with-text.blocks.heading.settings.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.image-with-text.blocks.heading.settings.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.image-with-text.blocks.heading.settings.heading_size.label"
+        }
+      ]
+    },
+    {
       "type": "caption",
       "name": "t:sections.image-with-text.blocks.caption.name",
       "limit": 1,
@@ -486,6 +519,25 @@
           "type": "url",
           "id": "button_link",
           "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
+        }
+      ]
+    },
+    {
+      "type": "button_2",
+      "name": "Bottom Button",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "default": "Button label",
+          "label": "Bottom Button Text",
+          "info": "t:sections.image-with-text.blocks.button.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "Bottom Button URL"
         }
       ]
     }
