@@ -2,38 +2,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "b89f35ae-100c-4eaf-b0bb-c76a75e68b99": {
-          "type": "heading",
-          "settings": {
-            "heading": "Sky Surfing",
-            "heading_size": "medium"
-          }
-        },
-        "c434faed-0b9f-4607-a6aa-4d9329d689c4": {
-          "type": "text",
-          "settings": {
-            "text": "A place where only surfboards matter",
-            "text_style": "subtitle"
-          }
-        },
-        "ab4c0376-2cb3-4857-8ed8-b0744af1fa31": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "b89f35ae-100c-4eaf-b0bb-c76a75e68b99",
-        "c434faed-0b9f-4607-a6aa-4d9329d689c4",
-        "ab4c0376-2cb3-4857-8ed8-b0744af1fa31"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/new_one.png",
         "image_2": "shopify:\/\/shop_images\/Tablet.png",
